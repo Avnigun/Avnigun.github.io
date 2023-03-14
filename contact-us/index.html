@@ -1,132 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="nav-bar">
+		<nav>
+			<h2 class="logo">Avni<span>Gun</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			<button type="button">Buy Now!</button>
+		</nav>
+	</div>
 
-  <body>
-    <div class="nav-bar">
-      <nav>
-        <h2 class="logo">Avni<span>Gun</span></h2>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-        <button type="button">Buy Now!</button>
-      </nav>
-    </div>
-
-    <div class="contact-info">
-      <h2>Contact Us</h2>
-      <p>Phone: 123-456-7890</p>
-      <p>Email: example@example.com</p>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+	<div class="container">
+		<h1>Contact Us</h1>
+		<div class="contact-info">
+			<div class="phone">
+				<h2>Phone</h2>
+				<p>+1-123-456-7890</p>
+			</div>
+			<div class="email">
+				<h2>Email</h2>
+				<p>contact@avnigun.com</p>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
-
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
-  }
-
-  html,
-  body {
-    height: 100%;
-  }
-
-  body {
-    background-image: url(images/BANNER.png);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: soft-light;
-  }
-
-  .contact-info {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-
-  .contact-info h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-
-  .contact-info p {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .nav-bar {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background-size: cover;
-    background-position: center;
-  }
-
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .logo {
-    color: white;
-    font-size: 28px;
-  }
-
-  span {
-    color: #00a719;
-  }
-
-  nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-  }
-
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  nav ul li a:hover {
-    color: #00a719;
-    transition: 0.3s;
-  }
-
-  button {
-    border: none;
-    background: #00a719;
-    padding: 12px 30px;
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    transition: 0.4s;
-  }
-
-  button:hover {
-    transform: scale(1.3);
-   
