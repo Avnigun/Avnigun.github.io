@@ -125,3 +125,21 @@ button:hover {
   cursor: pointer;
   transition: 0.4s;
 }
+
+.contact-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
