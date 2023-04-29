@@ -76,10 +76,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 40px;
+    padding-top: 40px;
     padding-left: 10%;
     padding-right: 10%; 
-    */
   }
   
   .logo {
