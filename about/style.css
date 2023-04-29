@@ -126,8 +126,7 @@ button{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
-  }
+    }
   
   .feature {
     width: 300px;
